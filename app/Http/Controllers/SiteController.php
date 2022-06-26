@@ -13,4 +13,7 @@ class SiteController extends Controller
             'titulo' => $titulo
         ]);
     }
+    public function login (){
+        echo 'Login';
+    }
 }
